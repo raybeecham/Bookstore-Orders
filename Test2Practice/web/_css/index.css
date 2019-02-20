@@ -1,0 +1,76 @@
+body {
+    font-family: "Times New Roman", Helvetica, sans-serif;
+    background-image: url(http://i.imgur.com/kjHcZWz.jpg);
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-size:100%;
+    width:100%;
+}
+section {
+    background-color: darksalmon;
+    text-align: center;
+    width: 750px;
+    border: 3px solid black;
+    margin: 0 auto;
+}
+
+
+input[type=text], [type=date], [type=number] {
+    width: 13em;
+    right: 0px;
+    float: right;
+    margin-right: 14em;
+    text-align: unset;
+}
+#buttonHolder {
+    text-align: center;
+
+}
+li {
+    list-style-type: none;
+}
+li:before{
+    content: '\f02d';
+    font-family: 'FontAwesome';
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+}
+.wrapper {
+    display: inline-flex;
+    margin-bottom: 1em;
+}
+label {
+    padding-left: 5em;
+}
+input {
+    margin-left: 1em;
+    margin-bottom: .5em;
+    width: 10em;
+    border-radius: 7px;
+}
+button {
+    border-radius: 7px;
+}
+.container {
+    width: 100%;
+}
+.logo {
+    background-color: orange;
+}
+ul li {
+    list-style-type: none;
+    background: cornsilk;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+}
+ul li .edit {
+    display: none;
+}
+ul li.edit .edit {
+    display: initial;
+}
+ul li.edit .noedit {
+    display: none;
+}
